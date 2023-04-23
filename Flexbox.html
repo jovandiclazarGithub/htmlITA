@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Flexbox</title>
+        <style>
+            header, nav, main, section, footer {
+                box-sizing: border-box;
+                border: 1px solid gray;
+                padding: 10px;     
+            }
+
+            main {
+                display: flex;
+            }
+
+            #s1, #s3 {
+                flex-basis: 20%;
+                flex-grow: 0;
+                flex-shrink: 0;
+            }
+
+            #s2 {
+                flex-basis: 60%;
+                flex-grow: 1;
+                flex-shrink: 0.5;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        </style>
+
+
+    </head>
+    <body>
+      <header></header>
+      <nav></nav>
+      <main>
+        <section id="s1">Sekcija 1</section>
+        <section id="s2">Sekcija 2</section>
+        <section id="s3">Sekcija 3</section>
+      </main>
+      <footer></footer>
+
+    </body>
+</html>

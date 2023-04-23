@@ -1,0 +1,28 @@
+* {
+    font-family:'Courier New', Courier, monospace
+
+
+#naslov {
+    color: blueviolet;
+}
+
+.grupa {
+    color: brown;
+}
+
+.zutabg {
+    background-color: yellowgreen;
+}
+
+/*[href] {
+    text-decoration: none;
+}
+
+[href="https://it-akademija.com"] {
+    color: rgb(117, 85, 48);
+    font-weight: bold;
+}*/
+
+a:hover {
+    color: violet;
+}
